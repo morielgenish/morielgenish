@@ -4,8 +4,6 @@
 
 💻 Computer Science Student | Specializing in Data and AI.
 
-💞️
-
 📫 How to reach me : morielgenish8@gmail.com
 
 ## 🛠️ Skills  
