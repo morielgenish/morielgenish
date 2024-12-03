@@ -1,0 +1,204 @@
+﻿/* styles.css */
+
+body {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-image: url(Images/lottobg1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+#introDiv {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introDiv p {
+    margin: 10px 0;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #666;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h1 span {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black; 
+    
+}
+
+/*rules style*/
+
+#rules {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#rules ul {
+    list-style-type: none;
+}
+
+#rules ul li {
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+
+/*start lottery button*/
+
+.enterButtonDiv {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.enterButtonDiv button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enterButtonDiv button:hover {
+    background-color: #0056b3;
+}
+
+.enterButtonDiv a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.enterButtonDiv a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#myNumbersDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    margin: 10px 0;
+}
+
+#myNumbersDiv span {
+        font-weight: bold;
+        font-size: 24px;
+        color: white;
+        -webkit-text-stroke: 2px black;
+        margin-right: 25px; 
+}
+
+
+.finishButtonDiv {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.enterButtonDiv input[type="button"], .finishButtonDiv input[type="button"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.enterButtonDiv input[type="button"]:hover, .finishButtonDiv input[type="button"]:hover {
+    background-color: #286090;
+}
+
+#mainTable {
+    border: 1px black solid;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    margin-right: 18%;
+    margin-left: 18%;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+
+#mainTable th, #mainTable td {
+   padding: 8px;
+   text-align: center;
+}
+
+
+.luckyNumbers input[type="checkbox"] {
+    margin: 10px;
+}
+
+#gameTableDiv {
+    text-align: center;
+}
+
+
+
+#mainTable th {
+    background-color: #f2f2f2;
+    padding: 16px;
+}
+
+.columnNumbers {
+    width: 80%;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.columnStrongNumber { 
+    margin: 10px; 
+    text-align:center;
+   
+}
+
+#showStrongNumberDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#showStrongNumberDiv p, #showNumbersDiv p {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+   -webkit-text-stroke: 2px black;
+    margin-right: 25px;
+    text-align: center;
+}
+
+
+

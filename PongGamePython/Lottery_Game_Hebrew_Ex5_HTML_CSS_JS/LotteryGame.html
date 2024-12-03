@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Game</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="LotteryGameJS.js"></script>
+    <link rel="icon" type="image/png" href="Images/LotteryIcon.ico">
+</head>
+<body>
+    <header>
+        <h1><span>משחק הלוטו!</span></h1>
+    </header>
+
+    <div class="container">
+        <div id="myNumbersDiv" class="card">
+            <p>
+                <span>הקופה שלי:</span>
+                <input type="text" id="showingMyBalance" value="1000" readonly />
+            </p>
+            <p>
+                <span>המספר החזק שנבחר:</span>
+                <input type="text" id="showingMyStrongNumber" value="" readonly />
+            </p>
+            <p>
+                <span>המספרים שנבחרו:</span>
+                <input type="text" id="showingMyNumbers" name="showingMyNumbers" value="" readonly />
+            </p>
+        </div>
+        <div id="secondDiv" class=".TableCenter">
+            <table id="mainTable" border="1">
+                <tr>
+                    <th class="ColumnStrongNumber">המספר החזק</th><!--Strobg number (1 to 7)-->
+                    <th class="ColumnNumbers">מספרי המזל</th><!-- Numbers (1 to 37)-->
+                </tr>
+                <tr>
+                    <th class="ColumnStrongNumber">
+                        1
+                        <input type="radio" class="rdbtn" name="rdbtn" value="1">
+                        <br />
+                        <br />
+                        2
+                        <input type="radio" class="rdbtn" name="rdbtn" value="2">
+                        <br />
+                        <br />
+                        3
+                        <input type="radio" class="rdbtn" name="rdbtn" value="3">
+                        <br />
+                        <br />
+                        4
+                        <input type="radio" class="rdbtn" name="rdbtn" value="4">
+                        <br />
+                        <br />
+                        5
+                        <input type="radio" class="rdbtn" name="rdbtn" value="5">
+                        <br />
+                        <br />
+                        6
+                        <input type="radio" class="rdbtn" name="rdbtn" value="6">
+                        <br />
+                        <br />
+                        7
+                        <input type="radio" class="rdbtn" name="rdbtn" value="7">
+                    </th>
+                    <th class="ColumnNumbers">
+                        <table>
+                            <tr>
+                                <th class="LuckyNumbers">
+                                    1
+                                    <input type="checkbox" class="chkbx" name="chkbx1" value="1">
+                                    <br />
+                                    2
+                                    <input type="checkbox" class="chkbx" name="chkbx2" value="2">
+                                    <br />
+                                    3
+                                    <input type="checkbox" class="chkbx" name="chkbx3" value="3">
+                                    <br />
+                                    4
+                                    <input type="checkbox" class="chkbx" name="chkbx4" value="4">
+                                    <br />
+                                    5
+                                    <input type="checkbox" class="chkbx" name="chkbx5" value="5">
+                                    <br />
+                                    6
+                                    <input type="checkbox" class="chkbx" name="chkbx6" value="6">
+                                    <br />
+                                    7
+                                    <input type="checkbox" class="chkbx" name="chkbx7" value="7">
+                                </th>
+                                <th class="LuckyNumbers">
+                                    8
+                                    <input type="checkbox" class="chkbx" name="chkbx8" value="8">
+                                    <br />
+                                    9
+                                    <input type="checkbox" class="chkbx" name="chkbx9" value="9">
+                                    <br />
+                                    10
+                                    <input type="checkbox" class="chkbx" name="chkbx10" value="10">
+                                    <br />
+                                    11
+                                    <input type="checkbox" class="chkbx" name="chkbx11" value="11">
+                                    <br />
+                                    12
+                                    <input type="checkbox" class="chkbx" name="chkbx12" value="12">
+                                    <br />
+                                    13
+                                    <input type="checkbox" class="chkbx" name="chkbx13" value="13">
+                                </th>
+                                <th class="LuckyNumbers">
+                                    14
+                                    <input type="checkbox" class="chkbx" name="chkbx14" value="14">
+                                    <br />
+                                    15
+                                    <input type="checkbox" class="chkbx" name="chkbx15" value="15">
+                                    <br />
+                                    16
+                                    <input type="checkbox" class="chkbx" name="chkbx16" value="16">
+                                    <br />
+                                    17
+                                    <input type="checkbox" class="chkbx" name="chkbx17" value="17">
+                                    <br />
+                                    18
+                                    <input type="checkbox" class="chkbx" name="chkbx18" value="18">
+                                    <br />
+                                    19
+                                    <input type="checkbox" class="chkbx" name="chkbx19" value="19">
+                                </th>
+                                <th class="LuckyNumbers">
+                                    20
+                                    <input type="checkbox" class="chkbx" name="chkbx20" value="20">
+                                    <br />
+                                    21
+                                    <input type="checkbox" class="chkbx" name="chkbx21" value="21">
+                                    <br />
+                                    22
+                                    <input type="checkbox" class="chkbx" name="chkbx22" value="22">
+                                    <br />
+                                    23
+                                    <input type="checkbox" class="chkbx" name="chkbx23" value="23">
+                                    <br />
+                                    24
+                                    <input type="checkbox" class="chkbx" name="chkbx24" value="24">
+                                    <br />
+                                    25
+                                    <input type="checkbox" class="chkbx" name="chkbx25" value="25">
+                                </th>
+                                <th class="LuckyNumbers">
+                                    26
+                                    <input type="checkbox" class="chkbx" name="chkbx26" value="26">
+                                    <br />
+                                    27
+                                    <input type="checkbox" class="chkbx" name="chkbx27" value="27">
+                                    <br />
+                                    28
+                                    <input type="checkbox" class="chkbx" name="chkbx28" value="28">
+                                    <br />
+                                    29
+                                    <input type="checkbox" class="chkbx" name="chkbx29" value="29">
+                                    <br />
+                                    30
+                                    <input type="checkbox" class="chkbx" name="chkbx30" value="30">
+                                    <br />
+                                    31
+                                    <input type="checkbox" class="chkbx" name="chkbx31" value="31">
+                                </th>
+                                <th class="LuckyNumbers">
+                                    32
+                                    <input type="checkbox" class="chkbx" name="chkbx32" value="32">
+                                    <br />
+                                    33
+                                    <input type="checkbox" class="chkbx" name="chkbx33" value="33">
+                                    <br />
+                                    34
+                                    <input type="checkbox" class="chkbx" name="chkbx34" value="34">
+                                    <br />
+                                    35
+                                    <input type="checkbox" class="chkbx" name="chkbx35" value="35">
+                                    <br />
+                                    36
+                                    <input type="checkbox" class="chkbx" name="chkbx36" value="36">
+                                    <br />
+                                    37
+                                    <input type="checkbox" class="chkbx" name="chkbx37" value="37">
+                                </th>
+                            </tr>
+                        </table>
+            </table>
+        </div>
+
+
+        <div class="enterButtonDiv">
+            <p>
+                <input type="button" id="goButton" value="בדיקת הגרלה" onclick=" startGame()" />
+            </p>
+        </div>
+
+        <div id="showNumbersDiv">
+            <p>
+                המספרים הם: <input type="text" id="showingNumbers" name="showingNumbers" value="" readonly />
+            </p>
+        </div>
+
+        <div id="showStrongNumberDiv">
+            <p>
+                והמספר החזק הוא: <input type="text" id="showingTheStrongNumbers" name="showingNumbers" value="" readonly />
+            </p>
+        </div>
+
+        <div class="finishButtonDiv">
+            <input type="button" id="finishSweepstakesButton" value="סיים הגרלות" onclick="finishGame()" />
+        </div>
+</body>  
+
+</html>
