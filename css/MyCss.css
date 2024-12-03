@@ -1,0 +1,119 @@
+﻿/* Global styles */
+
+body,
+p {
+    text-align: right;
+    direction: rtl; /*Hebrew page*/
+}
+
+.accordion .img-area-1 .img-fluid {
+    height: 27rem;
+    max-width: 100%;
+    display: block;
+    object-fit: cover; /* Adjust or remove if the image doesn't display correctly */
+}
+
+
+/*Organize the page according to hebrew rtl*/
+.cards-1 .fa-stack,
+.cards-1 .card,
+.lightbox-basic {
+    text-align: right;
+}
+
+
+.form-1 .label-control {
+    right: 1.375rem;
+}
+
+.accordion .accordion-title {
+    margin-right: 7px;
+}
+
+.accordion .accordion-body {
+    margin-right: 3.125rem;
+}
+
+.form-1 .list-unstyled .media-body,
+.cards-2 .list-unstyled .media-body {
+    margin-right: 0.625rem;
+}
+.cards-1 .card-title {
+    text-align:center;
+}
+
+.cards-1 .fa-stack .hexagon, 
+.cards-1 .fa-stack {
+    width: 21rem;
+}
+
+.cards-1 .card-body > p {
+    margin-right: 3rem;
+}
+/*End organize according to hebrew*/
+
+/*Orgnaize tabs*/
+.tabs #tab-1 .list-unstyled .media-body,
+.tabs #tab-3 .list-unstyled .media-body {
+    margin-left: 0.875rem;
+}
+
+
+@media (min-width: 768px) {
+    .tabs #tab-1 .list-unstyled, 
+    .tabs #tab-3 .list-unstyled {
+        display: inline-block;
+        width: 45%;
+        margin-top: 0;
+    }
+}
+
+.tabs #tab-1 .list-unstyled.first {
+    margin-right: 2rem;
+}
+
+
+.tabs #tab-1 .list-unstyled,
+.tabs #tab-3 .list-unstyled {
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+  
+.tabs #tab-1 .list-unstyled .media-bullet,
+.tabs #tab-3 .list-unstyled .media-bullet {
+    color: #14bf98;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+.tabs #tab-3 .list-unstyled.first {
+    margin-right: 2rem;
+ }
+
+.tabs #tab-1 .list-unstyled .media,
+.tabs #tab-3 .list-unstyled .media {
+    margin-bottom: 2rem;
+}
+
+
+
+/*End organize tabs*/
+
+/*galery*/
+.lightbox-basic .testimonial-author {
+    margin-bottom: 10px;
+}
+
+.lightbox-basic img {
+    width: 500px ;
+}
+
+.element-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
