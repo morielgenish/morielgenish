@@ -1,4 +1,5 @@
 👋 Hi, I’m @morielgenish
+
 👀 I’m interested in programming, algorithms, data structures ,etc.
 💻 Computer Science Student | Specializing in Data and AI.
 💞️
